@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* text-align: center; */
+  @media (max-width: 991.98px) {
+    margin: 0 auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+fieldset {
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 6px;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+select {
+  width: 180px;
+}
+h1,
+p {
+  text-align: center;
+}
+button {
+  margin-left: 45%;
+  cursor: pointer;
+}

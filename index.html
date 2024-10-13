@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form with Validation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Application Form</h1>
+    <p>
+      Please complete the form.Mandatory fields are marked with an asterisk (*)
+    </p>
+    <form action="">
+      <fieldset>
+        <legend>CONTACT DETAILS</legend>
+        <div>
+          <label for="">Name <span>*</span></label>
+          <input type="text" id="name" />
+        </div>
+        <br />
+        <div><label for="">Telephone</label> <input type="number" /></div>
+        <br />
+        <div>
+          <label for="">Email <span>*</span></label>
+          <input type="email" name="" id="email" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <div>
+          <label for="">Age <span>*</span></label>
+          <input type="number" name="" id="age" />
+        </div>
+        <br />
+        <div>
+          <label for="gender">Gender</label>
+          <select name="" id="">
+            <option value="">Female</option>
+            <option value="">Male</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <label for="">Remarks</label>
+          <textarea name="" id="" cols="20" rows="4"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>PICK YOUR FAVOURITE ANIMALS</legend>
+        <div>
+          <input type="checkbox" name="Zebra" id="Zebra" />
+          <label for="Zebra">Zebra</label>
+          <input type="checkbox" name="cat" id="cat />
+          <label for="cat">Cat</label>
+          <input type="checkbox" name="Anaconda" id="Anaconda" />
+          <label for="Anaconda">Anaconda</label>
+          <input type="checkbox" name="elephant" id="Elephant" />
+          <label for="elephant">Elephant</label>
+          <input type="checkbox" name="pigeon" id="Pigeon" checked />
+          <label for="pigeon" checked>Pigeon</label>
+        </div>
+      </fieldset>
+    </form>
+    <button type="submit" onclick="Validation()">Submit Application</button>
+    <script src="script.js"></script>
+  </body>
+</html>
