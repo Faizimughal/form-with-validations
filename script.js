@@ -4,7 +4,7 @@ function Validation() {
   let email = document.getElementById("email").value;
   if (age == "" || name == "" || email == " ") {
     alert("Please fill up the mandatory fields");
-  } else if (age < 20) {
+  } else if (age <= 20) {
     alert("Age must greater than 20 years");
   }
   let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
