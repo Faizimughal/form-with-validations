@@ -4,19 +4,21 @@ body {
   /* text-align: center; */
   @media (max-width: 991.98px) {
     margin: 0 auto;
+    padding: 10px;
   }
 }
 * {
   box-sizing: border-box;
 }
 fieldset {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
   /* align-items: center; */
   flex-direction: column;
-  gap: 6px;
+  gap: 10px;
 }
 div {
   display: flex;
